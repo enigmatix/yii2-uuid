@@ -1,0 +1,22 @@
+{
+    "name": "enigmatix/yii2-uuid",
+    "description": "Uses a PHP UUID library to generate valid UUID's, which can then be inserted into the database",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","uuid","behavior"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Small",
+            "email": "joel.small@biscon.com.au"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "ramsey/uuid": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "enigmatix\\uuid\\": ""
+        }
+    }
+}
